@@ -1,0 +1,30 @@
+<mso:cmd app="Visio" dt="0"/>
+<mso:customUI xmlns:x2="VisioAddin.VisioAddinPH" xmlns:x1="PDFMVisio.PDFMVisioCOMAddin" xmlns:mso="http://schemas.microsoft.com/office/2009/07/customui">
+	<mso:ribbon>
+		<mso:qat/>
+		<mso:tabs>
+			<mso:tab idQ="mso:TabHome">
+				<mso:group id="mso_c1.3490A75" label="Vlastné" imageMso="ResultsPaneStartFindAndReplace" autoScale="true">
+					<mso:control idQ="mso:AddOnsMenu" visible="true"/>
+					<mso:control idQ="mso:FileSendAsAttachment" visible="true"/>
+					<mso:control idQ="mso:FilePrintQuick" visible="true"/>
+				</mso:group>
+			</mso:tab>
+			<mso:tab idQ="mso:TabInsert" visible="false"/>
+			<mso:tab idQ="mso:TabDesignVisio" visible="false"/>
+			<mso:tab idQ="mso:TabData" visible="false"/>
+			<mso:tab idQ="mso:TabProcess" visible="false"/>
+			<mso:tab idQ="mso:TabReviewWord" visible="false"/>
+			<mso:tab idQ="mso:TabView" visible="false"/>
+			<mso:tab idQ="mso:TabAddIns" visible="false"/>
+			<mso:tab idQ="mso:HelpTab" visible="false"/>
+			<mso:tab idQ="x1:tab1" visible="false"/>
+			<mso:tab idQ="x2:FoxitTab" visible="false"/>
+			<mso:tab id="mso_c1.3464AA9" label="NRSR Nástroje" insertAfterQ="x2:FoxitTab">
+				<mso:group id="mso_c2.3464AA9" label="Moje Tvary" imageMso="PersonaStatusBusy" autoScale="true"/>
+				<mso:group id="mso_c3.3471D7A" label="Dokumentácia" imageMso="Info" autoScale="true"/>
+				<mso:group id="mso_c4.347630E" label="Vytvoriť" autoScale="true"/>
+			</mso:tab>
+		</mso:tabs>
+	</mso:ribbon>
+</mso:customUI>
